@@ -32,7 +32,7 @@ class TestBooksCollector:
         collector.set_book_genre('Гарри Поттер и философский камень', 'Фантастика')
         assert collector.get_book_genre('Гарри Поттер и философский камень') == 'Фантастика'
 
- #5
+#5
     def test_get_books_with_specific_genre_true(self):
         collector = BooksCollector()
 
@@ -40,7 +40,7 @@ class TestBooksCollector:
         collector.set_book_genre('Имя розы', 'Детективы')
         assert 'Имя розы' in collector.get_books_with_specific_genre('Детективы')
 
-    #6
+#6
     def test_get_books_for_children_in_list(self):
         collector = BooksCollector()
 
@@ -48,7 +48,7 @@ class TestBooksCollector:
         collector.set_book_genre('Гарри Поттер и философский камень', 'Фантастика')
         assert 'Гарри Поттер и философский камень' in collector.get_books_for_children()
 
-    #7
+#7
 
     def test_get_books_for_children_not_in_list(self):
         collector = BooksCollector()
