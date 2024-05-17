@@ -1,5 +1,8 @@
 # qa_python
 
+UI-тесты на приложение BooksCollector
+pytest
+
 #1 test_add_new_book_true - добавление книги (успешно)
 
 #2 test_add_new_book_false - добавление книги (неуспешно - длина более 41 символа)
